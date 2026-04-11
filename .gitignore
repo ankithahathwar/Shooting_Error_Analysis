@@ -2,15 +2,29 @@
 venv/
 .env
 
-
-# Ignore the massive image datasets
-Augmented_Data/
+# --- IGNORE THESE MASSIVE DATASETS (Matches your sidebar) ---
+output/
+Raw_Dataset_Backup/
+Raw_Split_Dataset/
 Shooting_Dataset/
-Final_Training_Set/
+seeds/
+
+# --- Ignore YOLO specific heavy files ---
+runs/
+*.pt
+*.onnx
+
+# --- Ignore standard junk ---
+__pycache__/
+*.pyc
+.DS_Store
+
 
 # Ignore Python temporary files
 __pycache__/
 *.pyc
+
+
 
 # Ignore trained AI models (they are too heavy for GitHub)
 *.h5
