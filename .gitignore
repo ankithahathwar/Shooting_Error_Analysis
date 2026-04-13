@@ -13,6 +13,8 @@ seeds/
 runs/
 *.pt
 *.onnx
+# BUT... do not ignore our MVP (Most Valuable Predictor)
+!models/snyptr_v1_91acc.pt
 
 # --- Ignore standard junk ---
 __pycache__/

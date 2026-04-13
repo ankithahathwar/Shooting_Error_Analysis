@@ -56,4 +56,4 @@ def split_and_merge():
     print(f"⚠️ Test folder was left 100% real for your research paper accuracy!")
 
 if __name__ == "__main__":
-    split_and_merge()
+    split_and_merge()   
