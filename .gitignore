@@ -15,6 +15,7 @@ runs/
 *.onnx
 # BUT... do not ignore our MVP (Most Valuable Predictor)
 !models/snyptr_v1_91acc.pt
+!models/snyptr_v2_93acc.pt
 
 # --- Ignore standard junk ---
 __pycache__/

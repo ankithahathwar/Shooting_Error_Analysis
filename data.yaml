@@ -1,0 +1,20 @@
+# 1. The root path of your project
+path: C:/Users/Ankitha Hathwar/OneDrive/Documents/Snypter/Shooting_Error_Analysis
+
+# 2. Paths RELATIVE to the root path above
+train: Shooting_Dataset/train/images
+val: Shooting_Dataset/valid/images
+test: Shooting_Dataset/test/images
+
+# 3. Your shooting error classes
+
+nc: 4
+names: ['c1', 'c2', 'c3', 'c4']
+  # ... and so on for all your classes
+
+roboflow:
+  workspace: ankithas-workspace
+  project: snyptr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ankithas-workspace/snyptr/dataset/1
